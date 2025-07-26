@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @Table(name = "orders") // reserved keyword
 public class Order {
     @Id
-    private Long orderId;
+    private Long Id;
 
     @ManyToOne
     private User user;

@@ -3,7 +3,7 @@ package org.example.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
+import jakarta.persistence.Id;
 
 import java.time.LocalDateTime;
 @Data
