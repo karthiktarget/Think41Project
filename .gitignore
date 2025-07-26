@@ -43,3 +43,6 @@ bin/
 
 *.yml
 *.properties
+
+/node_modules
+/.idea
