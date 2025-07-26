@@ -1,9 +1,12 @@
 package org.example.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
+
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+@Data
 @Entity
 public class Conversation {
 
@@ -17,20 +20,4 @@ public class Conversation {
         this.startedAt = LocalDateTime.now();
     }
 
-    // Getters and Setters
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
-
-    public LocalDateTime getStartedAt() {
-        return startedAt;
-    }
-
-    public void setStartedAt(LocalDateTime startedAt) {
-        this.startedAt = startedAt;
-    }
 }
