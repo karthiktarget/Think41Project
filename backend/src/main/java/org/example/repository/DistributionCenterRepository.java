@@ -1,10 +1,10 @@
 package org.example.repository;
 
-import org.example.model.Message;
+import org.example.model.DistributionCenter;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.UUID;
-
 @Repository
-public interface MessageRepository extends JpaRepository<Message, UUID> {}
+public interface DistributionCenterRepository extends JpaRepository<DistributionCenter, Long> {
+}
+
